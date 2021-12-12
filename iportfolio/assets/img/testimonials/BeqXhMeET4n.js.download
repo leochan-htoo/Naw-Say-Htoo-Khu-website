@@ -1,8 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["dOe1Y6q"]); }
-
-__d("BaseDivider.react",["react","stylex"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react"),i={divider:{backgroundColor:"pwoa4pd7",boxSizing:"rq0escxv",height:"ay7djpcl"},reset:{backgroundColor:"g5ia77u1",borderTopWidth:"rt8b4zig",borderEndWidth:"n8ej3o3l",borderBottomWidth:"agehan2d",borderStartWidth:"sk4xxmp2",marginTop:"kvgmc6g5",marginEnd:"cxmmr5t8",marginBottom:"oygrvhab",marginStart:"hcukyx3x"}};function a(a){return h.jsx("hr",{className:c("stylex")(i.reset,i.divider,a.xstyle)})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
-__d("CometDivider.react",["BaseDivider.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){return h.jsx(c("BaseDivider.react"),{xstyle:a.xstyle})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
-__d("useToggle",["react"],(function(a,b,c,d,e,f,g){"use strict";b=d("react");var h=b.useCallback,i=b.useState;function a(a){a===void 0&&(a=!1);a=i(a);var b=a[0],c=a[1];a=h(function(a){c(a==null?function(a){return!a}:a)},[]);return[b,a]}g["default"]=a}),98);
-__d("compactArray",[],(function(a,b,c,d,e,f){"use strict";function a(a){var b=[];for(var c=0;c<a.length;++c){var d=a[c];d!=null&&b.push(d)}return b}f["default"]=a}),66);
-__d("XCometGamingArenaHomeControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/gaming/tournaments/",Object.freeze({open_create_tournament_form:!1}),void 0);b=a;g["default"]=b}),98);
-__d("XFacebookHelpCenterContentControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/help/{cms_id}/{?cms_title}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
